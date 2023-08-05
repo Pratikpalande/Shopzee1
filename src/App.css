@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,127 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  color:black;
+  margin: 0;
+  padding: 0;
+ 
 }
+.container{
+  display: flex;
+  text-decoration: none;
+}
+.List{
+  list-style: none;
+  text-decoration: none;
+  margin: 6px; 
+}
+/* .img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:79rem;
+  
+} */
+
+.btn{
+  width: max-content;
+  margin: 8px;
+  box-shadow: 4px 4px 0 #281f20;
+  transition: transform 0.2s,box-shadow 0.2s;
+}
+.btn:active{
+  box-shadow: 0 0 0 #281f20;
+  transform: translateX(4px) translateY(4px);
+}
+.overlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.shado:hover{
+  transition: ease-in 1s;
+  box-shadow: 6px 6px 4px 4px  gray;
+}
+.shado2:hover{
+  transition: ease-in 0.5;
+  box-shadow: 4px 4px 4px 4px  rgb(88, 86, 88);
+}
+.headd{
+  transition: ease-in-out 1s;
+  box-shadow:6px 6px 4px 4px  gray;
+}
+video{
+  width: 100%;
+  height: 100%;
+   object-fit: cover;
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Adjust as needed */
+  }
+.shado2 {
+    height:25rem;
+   
+}
+.shado{
+  margin-left: 7rem;
+  margin-right: 7rem
+}
+.btn1{
+  height: 18px;
+}
+.btn1{
+  font-size: 1.875rem;
+  line-height: 8.25rem;
+  margin-left: 12rem;
+}
+.footer{
+  display: none!important ;
+}
+.List{
+  list-style: none;
+  text-decoration: none;
+  padding: 4px;
+}
+.incri{
+  margin-top: -2.25rem;
+  margin-left: 6rem;
+}
+
+}
+@media (max-width: 768px) {
+  
+  .container {
+    margin-left: 0;
+    text-align: center;
+  }
+  .List {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  /* Hide the checkbox */
+  #nav-toggle {
+    display: none;
+  }
+  /* Style the toggle label */
+  .nav-toggle-label {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+  .nav-toggle-label span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #333;
+  }
+}
+
+  
